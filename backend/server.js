@@ -1,13 +1,14 @@
 import express from "express"
 import cors from "cors"
+import dotenv from "dotenv";
 import { connectDB } from "./config/db.js";
 import foodRouter from "./routes/foodRoutes.js";
 import userRouter from "./routes/userRoutes.js";
-import 'dotenv/config'
 import cartRouter from "./routes/cartRoutes.js";
 import orderRouter from "./routes/orderRoutes.js";
 
 // app config
+dotenv.config();
 const app = express();
 const PORT = 5002;
 
