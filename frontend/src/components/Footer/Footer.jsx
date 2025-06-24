@@ -10,7 +10,7 @@ const Footer = () => {
 
                 <div className="footer-content-left">
                     <img src={assets.logo} alt="" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repellat dolores, aperiam nulla voluptas assumenda aliquam similique, culpa laudantium suscipit at tempora, sunt in provident.</p>
+                    <p>Craving something awesome? You’re in the right place! At FoodieFingers, we bring flavor, fun, and freshness right to your fingertips. From spicy cravings to sweet surprises, we’ve got your mood-food match covered. Fast delivery, tasty bites, and zero hassle — just the way food should be. Thanks for making us part of your foodie adventure! 🍕🍜🍩</p>
                     <div className='footer-social-icons'>
                         <img src={assets.facebook_icon} alt="" />
                         <img src={assets.twitter_icon} alt="" />
@@ -31,7 +31,7 @@ const Footer = () => {
                 <div className="footer-content-center">
                     <h2>Get In Touch</h2>
                     <ul>
-                        <li>+7841994490</li>
+                        <li>+91 1102244890</li>
                         <li>contact@foodiefingers.com</li>
                     </ul>
                 </div>
